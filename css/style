@@ -1,0 +1,45 @@
+/*
+Error: Invalid CSS after "  }": expected "}", was ""
+        on line 140 of style.scss
+
+135: @media (max-width:768px) {
+136:   #top {
+137:     height:250px;
+138:   }
+
+Backtrace:
+style.scss:140
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:1132:in `tok!'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:667:in `block'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:409:in `media_directive'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:222:in `special_directive'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:197:in `directive'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:684:in `block_child'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:677:in `block_contents'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:125:in `stylesheet'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/scss/parser.rb:41:in `parse'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/plugin.rb:109:in `method_missing'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-2.4.1/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.4.1/bin/sass:23:in `load'
+/usr/local/rvm/gems/ruby-2.4.1/bin/sass:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  }\": expected \"}\", was \"\"\A         on line 140 of style.scss\A \A 135: @media (max-width:768px) {\A 136:   #top {\A 137:     height:250px;\A 138:   }"; }
